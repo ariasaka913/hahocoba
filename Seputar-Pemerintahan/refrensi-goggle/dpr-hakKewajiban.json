@@ -1,0 +1,57 @@
+{
+	"Hak Anggota DPR":[
+		{
+			"1":"hak mengajukan usul rancangan undang undang"
+		},{
+			"2":"hak mengajukan pertanyaan"
+		},{
+			"3":"hak menyampaikan usul dan pendapat"
+		},{
+			"4":"hak memilih dan dipilih"
+		},{
+			"5":"hak membela diri"
+		},{
+			"6":"hak imunitas"
+		},{
+			"7":"hak protokoler"
+		},{
+			"8":"hak keuangan dan administratif"
+		},{
+			"9":"hak pengawasan"
+		},{
+			"10":"hak mengusulkan dan memperjuangkan program pembangunan dapil"
+		},{
+			"11":"hak melakukan sosialisasi undang undang"
+		}
+	],
+	"Kewajiban Anggota DPR":[
+		{
+			"1":"memegang teguh dan mengamalkan pancasila"
+		},{
+			"2":"melaksanakan undang undang dasar negara republik indonesia
+			tahun 1945 dan mentaati ketentuan peraturan perundang undangan"
+		},{
+			"3":"mempertahankan dan memelihara kerukunan nasional
+			dan keutuhan negara kesatuan republik indonesia"
+		},{
+			"4":"mendahulukan kepentingan negara diatas kepentingan pribadi,
+			kelompok dan golongan"
+		},{
+			"5":"memperjuangkan peningkatan kesejahteraan rakyat"
+		},{
+			"6":"mentaati prinsip demokrasi dalam penyelenggaraan pemerintah negara"
+		},{
+			"7":"mentaati tata tertib dan kode etik"
+		},{
+			"8":"menjaga etika dan norma dalam hubungan kerja dengan lembaga lain"
+		},{
+			"9":"menyerap dan menghimpun aspirasi konstituen melalui kunjungan 
+			kerja secara berkala"
+		},{
+			"10":"menampung dan menindak lanjuti aspirasi dan pengaduan masyarakat"
+		},{
+			"11":"memberikan pertanggung jawaban secara moral dan politis 
+			kepada konstituen didaerah pemilihnya"
+		}
+	]
+}

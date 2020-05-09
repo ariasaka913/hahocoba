@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>workJson</title>
+	<link rel="stylesheet" type="text/css" href="../aset/bootstrap.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 50%;"></a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="menu1 active"><a href="#">All</a></li>
+				<li class="menu1"><a href="#">pizza</a></li>
+				<li class="menu1"><a href="#">pasta</a></li>
+				<li class="menu1"><a href="#">nasi</a></li>
+				<li class="menu1"><a href="#">minuman</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<h1 id="nMenu">All Menu</h1>
+		</div>
+		<div class="row daftarMenu">
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../aset/jquery.js"></script>
+	<script type="text/javascript" src="../aset/bootstrap.js"></script>
+	<script type="text/javascript">
+		function allmenu(){
+			$.getJSON('data/pizza.json', function (data){
+				let menu= data.menu;
+				$.each(menu, function (i,data) {
+					$('.daftarMenu').append(''+
+						'<div class="col-md-4">'+
+						'<div class="panel panel-primary">'+
+						'<div class="panel-heading">'+
+						'<span>'+data.nama+'</span>'+
+						'</div>'+
+						'<div class="panel-body">'+
+						'<img src="img/menu/'+data.gambar+'" style="width: 100%;">'+
+						'<div style="padding: 3px;"></div>'+
+						'<span>'+data.deskripsi+'</span>'+
+						'<div style="padding: 3px;"></div>'+
+						'<span><b>Rp '+data.harga+'</b></span>'+
+						'</div>'+
+						'<div class="panel-footer">'+
+						'<a href="#" class="btn btn-xs btn-primary btn-block">detail</a>'+
+						'</div>'+
+						'</div>'+
+						'</div>');
+					});
+				});
+			}
+			allmenu();
+
+			$('.menu1').on('click',function(){
+				$('.menu1').removeClass('active');
+				$(this).addClass('active');
+				let kategori=$(this).html();
+				$('#nMenu').html(kategori);
+				if(kategori=='AllMenu'){
+					allmenu();
+					return false;
+				}
+				$.getJSON('data/pizza.json', function (data){
+					let menu=data.menu;
+					let content='';
+					$.each(menu, function (i,data){
+						if('<a href="#">'+data.kategori+'</a>' == kategori){
+							content +=''+
+						'<div class="col-md-4">'+
+						'<div class="panel panel-primary">'+
+						'<div class="panel-heading">'+
+						'<span>'+data.nama+'</span>'+
+						'</div>'+
+						'<div class="panel-body">'+
+						'<img src="img/menu/'+data.gambar+'" style="width: 100%;">'+
+						'<div style="padding: 3px;"></div>'+
+						'<span>'+data.deskripsi+'</span>'+
+						'<div style="padding: 3px;"></div>'+
+						'<span><b>Rp '+data.harga+'</b></span>'+
+						'</div>'+
+						'<div class="panel-footer">'+
+						'<a href="#" class="btn btn-xs btn-primary btn-block">detail</a>'+
+						'</div>'+
+						'</div>'+
+						'</div>';
+						}
+					});
+					$('.daftarMenu').html(content);
+				});
+			});
+		</script>
+	</body>
+	</html>

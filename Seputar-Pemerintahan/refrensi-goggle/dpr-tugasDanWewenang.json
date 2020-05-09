@@ -1,0 +1,56 @@
+{
+	"Terkait FUngsi Legislasi":[
+		{
+			"1":"Menyusun Program Legilasi Nasional (Prolegnas)"
+		},{
+			"2":"Menyusun dan Membahas Rancangan Undang Undang (RUU)"
+		},{
+			"3":"Menerima RUU yg diajukan oleh DPD terkait otonomi daerah, 
+			hubungan pusat dan daerah, pembentukan, pemekaran dan penggabungan
+			daerah, pengelolaan SDA dab SDE lainya serta perimbangan keuangan
+			pusat dan daerah"
+		},{
+			"4":"membahas RUU yang diusulkan oleh presiden ataupun DPD"
+		},{
+			"5":"menetapkan UU bersama dengan presiden"
+		},{
+			"6":"Menyetujui atau tidak menyetujui peraturan pemerintah pengganti
+			UU yang diajukan presiden untuk ditetapkan menjadi uu"
+		}
+	],
+	"Terkait FUngsi Anggaran":[
+		{
+			"1":"Memberikan Persetujuan atas RUU tentang APBN (yang diajukan Presiden)"
+		},{
+			"2":"Memperhatikan Pertimbangan DPD atas RUU tentang APBN
+			dan RUU terkait pajak, pendidikan dan agama"
+		},{
+			"3":"Menindaklanjuti hasil pemeriksaan atas pengeloaan dan tanggung jawab
+			keuangan negara yang disampaikanoleh BPK"
+		},{
+			"4":"Memberikan Persetujuan terhadap pemindahan aset negara maupun
+			terhadap perjanjian yang berdampak luas bagi kehudupan rakyat yang
+			terkait dengan beban keuangan negara"
+		},
+	],
+	"Tugas dan Wewenang Dpr Lainnya":[
+		{
+			"1":"Meneyerap, mengghimoun, menmpung dan menindak lanjuti aspirasi rakyat"
+		},{
+			"2":"Memberikan persetujuan kepada presiden untuk menyatakan perang 
+			ataupun membuat perdamaian dengan nagara lain, mengangkat dan
+			memberhentikan anggota komisi yudisial"
+		},{
+			"3":"Memberikan Pertimbangan kepada presiden dalam hal pemberian
+			amnesti dan abolisi, mengangkat duta besar dan menerima penempatan
+			duta besar lain"
+		},{
+			"4":"Memilih anggota BPK dengan memperhatikan Pertimbangan DPD"
+		},{
+			"5":"MMemeberikan persetujuan kepada komisi yudisial terkait calon hakim
+			agung yang akan ditetapkan menjadi hakim agung oleh presiden"
+		},{
+			"6":"Memilih 3 orang hakim konstitusi untuk selanjutnya diajukan ke presiden"
+		},
+	]
+}

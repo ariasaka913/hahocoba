@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>latihan json</title>
+</head>
+<body>
+<div id="q"></div>
+	<script type="text/javascript" src="../aset/jquery.js"></script>
+	<script type="text/javascript">
+		let user={
+			nama:"cjdw",
+			nim:"1105",
+			umur:"16"
+
+		}
+		console.log(user);
+		console.log(JSON.stringify(user));
+
+		let q1=new XMLHttpRequest();
+		q1.onreadystatechange=function(){
+			if(q1.readyState==4 && q1.status==200){
+				let user=this.responseText;
+				console.log(user)
+			}
+		}
+		q1.open('GET','json.json',true);
+		q1.send();
+
+		$.getJSON('json.json', function (data) {
+			var q=console.log(data);
+			$('#q').html(q);
+		});
+	</script>
+</body>
+</html>

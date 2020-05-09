@@ -1,0 +1,55 @@
+{
+	"persegi":[
+		{
+			"keliling":"4*S atau S+S+S+S"
+		},{
+			"luas":"S^2 atau S*S"
+		},
+	],
+	"persegi panjang":[
+		{
+			"keliling":"2*(P+L) atau P+P+L+L"
+		},{
+			"luas":"P*L"
+		},
+	],
+	"segitiga":[
+		{
+			"keliling":"A+B+C"
+		},{
+			"luas":"(1/2)*A*T"
+		},
+	],
+	"jajar genjang":[
+		{
+			"keliling":"2*(A+B)"
+		},{
+			"luas":"A*T"
+		},{
+			"sisi alas (A)":"(KLL/2)-B atau (LS/T)"
+		},{
+			"sisi miring (B)":"(KLL/2)-A"
+		},{
+			"tinggi (T)":"(LS/A)"
+		},
+	],
+	"trapesium":[
+		{
+			"keliling":"AB + BC + CD + DA"
+		},{
+			"luas":"(1/2) * (A+B) * T"
+		},{
+			"tinggi":"(2*L) / (A+B)"
+		},{
+			"A":"(2*L) / T"
+		},
+	],
+	"layang layang":[
+		{
+			"keliling":""
+		},
+		{
+			"luas":""
+		},
+	],
+}

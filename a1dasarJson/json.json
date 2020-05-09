@@ -1,0 +1,29 @@
+[{
+	"nama":"cjdw",
+	"umur":17,
+	"nrp":"51411040022",
+	"lulus":true,
+	"hobby":[
+		"coding",
+		"desain"
+	],
+	"guru":{
+		"guru1":"luki",
+		"guru2":"yesi"
+	}
+},
+{
+	"nama":"cjdw",
+	"umur":17,
+	"nrp":"51411040022",
+	"lulus":true,
+	"hobby":[
+		"coding",
+		"desain"
+	],
+	"guru":{
+		"guru1":"luki",
+		"guru2":"yesi"
+	}
+}
+]

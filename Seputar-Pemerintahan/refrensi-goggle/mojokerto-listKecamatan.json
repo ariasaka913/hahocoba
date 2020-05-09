@@ -1,0 +1,49 @@
+{
+	"kabupaten":[
+		{
+			"kecamatan":"Dawar Blandong"
+		},{
+			"kecamatan":"Kemlagi"
+		},{
+			"kecamatan":"Jetis"
+		},{
+			"kecamatan":"Gedeg"
+		},{
+			"kecamatan":"Mojoanyar"
+		},{
+			"kecamatan":"Sooko"
+		},{
+			"kecamatan":"Bangsal"
+		},{
+			"kecamatan":"Puri"
+		},{
+			"kecamatan":"Trowulan"
+		},{
+			"kecamatan":"Jatirejo"
+		},{
+			"kecamatan":"Dlanggu"
+		},{
+			"kecamatan":"Mojosari / ibu kota kabupaten mojokerto"
+		},{
+			"kecamatan":"Pungging"
+		},{
+			"kecamatan":"Kutorejo"
+		},{
+			"kecamatan":"Ngoro"
+		},{
+			"kecamatan":"Gondang"
+		},{
+			"kecamatan":"Trawas"
+		},{
+			"kecamatan":"Pacet"
+		}
+	],
+	"kota":[
+		{
+			"kecamatan":"Magersari"
+		},{
+			"kecamatan":"Prajurit Kulon"
+		},
+	]
+}
+}
